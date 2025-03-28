@@ -136,6 +136,6 @@ document_outline: |
 #     - knowledge/geography/travel/europe/m3diterraneo_hotels/general_info.md
 document:
   repo: https://github.com/RedHatTraining/AI296-apps.git
-  commit: jaime-hotel-scenario
+  commit: main # TODO: pin a specific commit or tag/branch
   patterns:
     - scenarios/hotels/business_docs/general_info.md
