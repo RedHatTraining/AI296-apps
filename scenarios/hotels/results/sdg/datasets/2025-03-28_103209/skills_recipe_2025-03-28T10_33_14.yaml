@@ -1,0 +1,13 @@
+datasets:
+- path: /usr/share/instructlab/sdg/datasets/skills.jsonl
+  sampling_size: 1.0
+- path: node_datasets_2025-03-28T10_33_14/compositional_skills_technology_hotels_m3diterraneo_hotels_guests_welcoming.jsonl
+  sampling_size: 30
+- path: node_datasets_2025-03-28T10_33_14/compositional_skills_technology_hotels_m3diterraneo_hotels_upselling.jsonl
+  sampling_size: 30
+- path: node_datasets_2025-03-28T10_33_14/knowledge_geography_travel_europe_m3diterraneo_hotels_p10.jsonl
+  sampling_size: 10392
+metadata:
+  sys_prompt: "I am a Red Hat\xAE Instruct Model, an AI language model developed by\
+    \ Red Hat and IBM Research based on the granite-3.1-8b-base model. My primary\
+    \ role is to serve as a chat assistant."
