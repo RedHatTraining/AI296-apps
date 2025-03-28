@@ -1,0 +1,44 @@
+version: 3
+task_description: |
+  Teach the model how to offer and package special services at "M3diterraneo Hotels", which is a Mediterranean-based hotel group.
+  It covers offering family-oriented upsells at a beach resort (Sunny Shores Resort), creating spa packages at an adults-only city hotel (Palma Serenity Boutique Hotel),
+  and promoting wine tasting experiences at a rural winery hotel (Vineyard Vista Hotel).
+created_by: m3diterraneo_hotels_team
+seed_examples:
+  - question: |
+      How should front desk staff at the Sunny Shores Resort offer the “Mini Mediterranean Pirates” excursion to guests with children?
+    answer: |
+      Identify interested families during check-in or inquiries and mention the exclusive pirate-themed boat adventure tailored for kids.
+      Emphasize how children (ages 5-12) get a fun, supervised boat trip while parents **enjoy free time**.
+      Staff should highlight that the excursion is a special experience for young guests.
+      To close the upsell, **suggest booking immediately** to secure a spot (maximum capacity: 10 children) and mention any discount for booking the excursion early.
+  - question: |
+      What are optimal ways to upsell **beach gear rentals** (such as umbrellas and snorkel sets) to family guests at our resort?
+    answer: |
+      Before booking confirmation, inform guests that they can rent umbrellas, snorkels, and beach toys directly from the resort instead of bringing or buying them.
+      Mention that the gear can be delivered to their room or even to the beach.
+      Mention the discount: rent for 3 days, get the 4th free.
+      Staff can highlight that this is a way of making their stay more sustainable, by reducing environmental impact.
+  - question: |
+      How can we create an appealing **spa package** at the adults-only Palma Serenity Boutique Hotel?
+    answer: |
+      Design a spa package that combines our most popular wellness services, which could include a 60-minute couples massage, a private sauna session, and a rooftop yoga class at sunset (or sunrise).
+      Mention that the rooftop has a direct view of the city skyline, the cathedral, and the sea.
+      Add special details, such as a welcome glass of champagne or fresh fruit platter.
+      Offer a small discout for couples.
+      Offer a special detox meal at "La Despensa" restaurant.
+  - question: |
+      How should the urban hotel **promote its new spa package** to guests?
+    answer: |
+      **Promote the spa package at multiple touchpoints**: mention it in the booking confirmation email and at check-in for all arrivals.
+      Concierge and front-desk staff can recommend the package especially to couples or guests on longer stays, framing it as a way to unwind after exploring Palma (guides can recommend it at the end of city cultural excursions)
+      Place attractive flyers in rooms and the lobby, highlighting the package's inclusions (massage, sauna, etc.) and the limited-time pricing.
+      If possible, offer a brief **complimentary teaser** (like a 5-minute chair massage sample at check-in or during happy hour) to pique interest and encourage full package bookings.
+  - question: |
+      What is an effective way for the Vineyard Vista Hotel to promote its wine tasting experience to guests?
+    answer: |
+      Leverage the hotel's unique setting by inviting guests to an **on-site evening wine tasting** in the estate's own vineyard or cellar.
+      Upon guest arrival or at the welcome orientation, describe the experience: tasting **local Mediterranean wines** produced right at the hotel, paired with artisanal cheeses.
+      Emphasize that it is an exclusive offering only available to hotel guests, creating a sense of privilege.
+      Encourage sign-ups by noting the limited group size for an intimate atmosphere (only 20 guests) and perhaps offer a **small incentive**, such as a discount on bottle purchases for those who attend the tasting.
+      As well as the wine tasting at the winery, offer the possibility of the vineyard tour with views to the Serra the Tramuntama mountains (this can be paired with an outdoor activity, such as hiking)

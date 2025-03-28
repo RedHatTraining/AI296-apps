@@ -1,0 +1,120 @@
+version: 3
+task_description: |
+  This skill trains the model to generate personalized welcome messages for hotel guests based on
+  their booking profile (guest type, hotel, length of stay, season). The message should include:
+  - A warm and tailored greeting
+  - Practical hotel information (e.g. restaurant locations and hours)
+  - Optional upgrades or extras relevant to the guest type and season (e.g. spa, wine tasting, kids club)
+  - Optionally, destination-based what-to-do suggestions carefully selected for each guest and each season
+
+  These messages can be used in pre-arrival emails, printed welcome notes, or at check-in.
+
+created_by: m3diterraneo_hotels_team
+
+seed_examples:
+  - question: |
+      Generate a welcome message for a couple staying 3 nights at the adults-only Palma Serenity Boutique Hotel during spring.
+      Breakfast not included in their booking.
+    answer: |
+      Welcome to Palma!
+
+      We're delighted to host you for your spring getaway at Palma Serenity Boutique Hotel. Your stay includes access to our rooftop lounge with panoramic views of Palma's skyline.
+
+      🕒 **Hotel Info**:
+      - Check-in: 3:00 PM | Checkout: 3:00 PM
+      - Spa: Floor -1, open daily from 10:00 AM to 8:00 PM
+      - "La Despensa" Restaurant & Bar: Ground floor, serving Mallorcan fusion cuisine from 6:30 PM to 10:30 PM
+      - Breakfast buffet: 7:00 AM - 10:30 AM (not  included)
+
+      🌿 **Enhance Your Stay**:
+      - Add breakfast to your booking. Ask our staff at the reception desk.
+      - Unwind with our Palma Serenity Spa Package - includes a 60-minute couples massage and rooftop jacuzzi access.
+      - Reserve a private rooftop dinner for two with our chef's seasonal tasting menu.
+      - Inmerse yourself in the city's rich cultural heritage "Semana Santa" easter week.
+
+      We wish you a relaxing and memorable stay. If there's anything you need, our team is just ready to assist you.
+
+  - question: |
+      Write a welcome message for a family with two kids staying five nights at Sunny Shores Resort in August.
+    answer: |
+      Welcome to Sunny Shores. We're thrilled to have you with us this summer!
+
+      ☀️ Your seaside adventure begins now. Our team has prepared a fun schedule of activities for your children, including daily games at the Kids' Club and our famous **Mini Mediterranean Pirates** - a treasure-hunting experience they won't forget!
+
+      🍽️ **Hotel Dining**:
+      - Breakfast: 7:30 AM - 10:30 AM | Dinner: 6:30 PM - 9:30 PM
+      - Family Buffet: Poolside, kid-friendly options available daily
+
+      🎤 **Live show every night after dinner**:
+      - Daily: 8:00 PM - 12:30 AM
+      - At the stage, next to the pool bar
+
+      🏖️ **Family Perks**:
+      - Daily Mini Mediterranean Pirates excursion for ages 5 to 12. Book at front-desk
+      - Don't forget to ask about our Family Beach Pack (includes snorkel gear and umbrellas!)
+      - Need a quiet morning? Babysitting services are available upon request.
+      - Book the all-inclusive package and enjoy the full experience.
+
+      We hope that you have a fantastic family holiday! Let us know if we can help with bookings or questions.
+
+  - question: |
+      Create a message for a solo traveler staying 2 nights at the rural Vineyard Vista Hotel in October.
+      She is interested in wine tasting, bike rental, and the natural environment.
+    answer: |
+      Welcome to our Vineyard Vista Hotel retreat in the heart of Mallorca!
+
+      🍂 October is a beautiful time to explore the island, and we're excited to have you with us for a peaceful two-night escape.
+
+      🍷 **Special Experiences Just for You**:
+      - Join our vineyard tour and wine tasting this evening at 7:30 PM - meet our winemaker and sample our estate wines.
+      - Rent a bicycle and explore nearby trails; maps are available at reception.
+
+      🍽️ **Dining**:
+      - Restaurant: ground floor. Next to the cozy lounge area.
+      - Breakfast: 8:00 AM - 10:30 AM (included)
+      - Dinner: 7:00 PM - 10:00 PM
+      - Optional farm-to-table dinner: Served at 7:30 PM on the terrace (vegan option available). Reserve before 5:00 PM.
+
+      🏞️  **Suggestions for nature lovers**:
+      - This time of the year is perfect to enjoy the beach and the sea. Water is still warm at sunset!
+      - Rent a car and explore the Serra de Tramuntana, a UNESCO World Heritage area. Car rental options and maps available at reception.
+
+      Enjoy the calm, the views, and the wine. Let us know if we can help plan your stay.
+
+  - question: |
+      Generate a welcome message for a returning guest couple at the Vineyard Vista Hotel in May. Mention loyalty perks and seasonal events.
+    answer: |
+      Welcome back to your countryside home in Mallorca!
+
+      We are honored to have you with us again. As returning guests, you get 10% off your wine purchases during your stay.
+
+      🌿 **Seasonal Highlights**:
+      - This weekend: Join our olive oil tasting with local artisans (Saturday, 5 PM).
+      - Spring hiking tours to the Serra de Tramuntana run daily - book at reception.
+      - The weather forecast is perfect for a hike next Thursday. Do not miss the opportunity.
+
+      🕒 **Restaurant Hours**:
+      - Breakfast: 8:00 AM - 10:30 AM | Dinner: 7:00 PM - 9:30 PM (reservations recommended)
+
+      We are very happy to have you back. Let us know if we can do anything for you.
+
+  - question: |
+      Write a welcome message for a digital nomad staying one week at the Palma Serenity Boutique Hotel in February.
+      This person in interested in local culture and architecture.
+      Include relevant info and extras.
+    answer: |
+      Welcome to Palma - your home for a productive and inspiring week on the island!
+
+      💻 **Work-Friendly Amenities**:
+      - High-speed Wi-Fi is available throughout the hotel (network: example | password: Welcome2024)
+      - Need focus time? Our coworking lounge (1st floor) is open 9 AM - 9 PM with complimentary coffee and ergonomic seating.
+
+      🧘 **Relax After Work**:
+      - Treat yourself to our evening spa circuit - quiet time begins at 6:00 PM.
+      - Grab a local craft beer or herbal tea at the rooftop bar with sunset views of the La Seu cathedral.
+      - Walk around the old town. We recommend visiting La Seu, a stunning example of Gothic architecture, and La Almudaina palace. Night tours are available.
+      - Don't miss the Bellver castle, Spain's only round castle.
+
+      🍽️ Restaurant (ground floor) open 6:30 PM - 10:00 PM daily. Breakfast buffet : 7:00 AM - 10:30 AM
+
+      Wishing you a smooth and productive stay.
