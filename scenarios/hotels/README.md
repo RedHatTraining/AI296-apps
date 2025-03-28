@@ -5,7 +5,7 @@ This lesson presents students with a scenario where a hotel group with three hot
 
 * The taxonomy with skills and knowledge is at https://github.com/RedHatTraining/AI296-taxonomy-hotels. We cannot store thae the taxonomy in a monorepo because InstructLab needs each taxonomy to have its own dedicated repository.
 
-* Knowledge files are stored in this directory.
+* Documents that support the taxonomy knowledge are stored in the `business_docs` directory.
 
 * The `results` directory contain the intermediate outputs of the SDG phase to save time to the student.
 With the provided taxonomy, the SDG phase takes ~ 2 hours in a `g6e.12xlarge` AWS instance.
