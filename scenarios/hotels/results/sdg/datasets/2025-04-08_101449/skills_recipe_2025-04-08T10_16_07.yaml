@@ -1,0 +1,14 @@
+datasets:
+- path: /usr/share/instructlab/sdg/datasets/skills.jsonl
+  sampling_size: 1.0
+- path: node_datasets_2025-04-08T10_16_07/compositional_skills_technology_hotels_m3diterraneo_hotels_guests_welcoming.jsonl
+  sampling_size: 30
+- path: node_datasets_2025-04-08T10_16_07/compositional_skills_technology_hotels_m3diterraneo_hotels_upselling.jsonl
+  sampling_size: 30
+- path: node_datasets_2025-04-08T10_16_07/knowledge_geography_travel_europe_m3diterraneo_hotels_p10.jsonl
+  sampling_size: 10392
+metadata:
+  sys_prompt: I am an advanced AI language model designed to assist you with a wide
+    range of tasks and provide helpful, clear, and accurate responses. My primary
+    role is to serve as a chat assistant, engaging in natural, conversational dialogue,
+    answering questions, generating ideas, and offering support across various topics.
