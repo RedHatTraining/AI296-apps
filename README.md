@@ -1,12 +1,12 @@
 # AI296-apps
-Applications and resources for the exercise in RHEL AI training (AI296)
+Applications and resources for the exercises in RHEL AI training (AI296)
 
 
 ## Tools
 
 ### Synthetic Data Inspector
 
-Inspect generated training skill messages containing the "breakfast" and "hourse" terms.
+Inspect generated training skill messages containing the "breakfast" and "hours" terms.
 
 ```
 uv run utils/inspect_sdg.py ~/.local/share/instructlab/datasets/datetime/skills_train_msgs_....jsonl -s breakfast -s hours
@@ -24,5 +24,5 @@ Reducing the generated synthetic dataset by extracting a subset is useful for re
 This is useful for debugging, experimentation, and learning.
 
 ```
-uv run utils/reduce_sythentic_data.py ~/.local/share/instructlab/datasets/datetime
+uv run utils/reduce_synthetic_data.py ~/.local/share/instructlab/datasets/datetime
 ```

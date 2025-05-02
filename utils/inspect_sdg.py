@@ -82,7 +82,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     filename = args.filename
     limit = int(args.limit) if args.limit is not None else int("inf")
-    search_terms = args.search_terms
+    search_terms = args.search_terms or []
 
     if not args.filename.endswith(".jsonl"):
         logging.fatal("The provided file must be in JSONL format")
