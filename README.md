@@ -24,5 +24,5 @@ Reducing the generated synthetic dataset by extracting a subset is useful for re
 This is useful for debugging, experimentation, and learning.
 
 ```
-uv run utils/reduce_sythentic_data.py ~/.local/share/instructlab/datasets/datetime
+uv run utils/reduce_synthetic_data.py ~/.local/share/instructlab/datasets/datetime
 ```
