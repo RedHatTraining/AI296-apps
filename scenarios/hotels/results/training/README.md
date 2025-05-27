@@ -8,7 +8,7 @@ The model is available in two formats:
 
 > NOTE: This model has been trained using a reduced version of the RHEL AI default training process.
 > It is only meant to be used for learning purposes.
-> In this reduced version, the model has been trained only during four hours, instead of four-five days.
+> In this reduced version, the model has been trained only during four hours, instead of four to six days.
 > Additionally, the number of training samples has been reduced from ~330,000 to only 10,000.
 >
 > As a result, the model, although useful for learning purposes, is far from being optimally tuned.
