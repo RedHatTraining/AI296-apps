@@ -1,7 +1,7 @@
 # AI296-apps
 Applications and resources for the exercises in RHEL AI training (AI296).
 
-For more information about the example hotels scenario used in AI0005L and AI0006L, visit scenarios/hotels.
+For more information about the example hotels scenario used in AI0005L and AI0006L, visit [scenarios/hotels](scenarios/hotels).
 
 ## Tools
 
